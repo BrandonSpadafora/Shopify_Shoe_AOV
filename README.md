@@ -1,8 +1,8 @@
 # Shopify_Shoe_AOV
 
 This is a project for a potential internship. I missed the cut-off date to apply(didn't get notified of the opportunity until it was too late :( ), 
-but I thought the challenge would be fun and interesting
-to do any way. 
+but I thought the challenge would be fun and interestingto do any way. There is also a .text file included showing how I got the same(approximately) answer in SQL.
+ 
 
 
 "
