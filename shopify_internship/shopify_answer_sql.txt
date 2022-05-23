@@ -1,0 +1,19 @@
+This is how you find the the answer as a SQL query
+
+
+SELECT *
+FROM shopify_data ;
+
+
+/* count  of total orders is 15,725,640 */
+SELECT SUM(order_amount) AS total_orders
+FROM shopify_data; 
+
+/* total items bought is 43,936*/
+SELECT SUM(total_items) AS total_items
+FROM shopify_data;
+
+/* AOV is 357*/
+SELECT SUM(order_amount) / SUM(total_items) AS average_order_value
+FROM shopify_data;
+ 
